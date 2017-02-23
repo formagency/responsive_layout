@@ -1,0 +1,362 @@
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 1em;
+	widows: 3;
+
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	color: black;
+	text-decoration: none;
+}
+
+h1 a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	color: black;
+	text-decoration: none;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+
+}
+
+p span {
+	font-weight: bold;
+}
+
+li {
+	list-style: none;
+	text-transform: ;
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a:visited: {
+	text-decoration: none;
+	color: black;
+}
+
+footer * {
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+	border-top: 2px solid lightgrey;
+}
+
+footer li a {
+	font-weight: 700;
+}
+
+.col ul {
+	margin-left: -40px;
+}
+
+.col li {
+	text-align: left;
+	font-size: 1rem;
+	line-height: 2rem;
+}
+
+.col li span {
+	font-weight: bold;
+}
+
+.col p {
+	font-size: 1.4rem;
+}
+
+.secondary {
+	padding-bottom: 6rem;
+	line-height: 2rem;
+}
+
+.secondary h3 {
+	padding: 3rem 0;
+	text-align: center;
+}
+
+figure {
+	margin: 0;
+	line-height: 0;
+}
+
+figcaption {
+	font-size: .9em;
+	line-height: 1.5;
+	color: #fff;
+	padding: 1em;	
+	background: rgba(19,43,102, .85);
+	position: absolute;
+	bottom: 50px;
+	width: 50%;
+	height: 1.5rem;
+}
+
+
+/* --------------------------- */
+/*		NAVIGATION			   */
+/* --------------------------- */
+
+.name {
+	font-size: 1.25em;
+}
+
+.main-nav {
+	margin-left: -40px; /*-- FIX FOR USER AGENT STYLES --*/
+	padding-right: 20px; 
+}
+
+.name,
+.main-nav li {
+	text-align: center;
+	background:;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	line-height: 2rem;
+}
+
+.main-nav a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+.name a,
+.main-nav a {
+  padding: 5px 15px;
+  display: block;
+}
+
+
+.main {
+	margin-left: 1em;
+	margin-right: 1em;
+	background-color: white;
+}
+
+.main h2 {
+	text-align: center;
+}
+
+.colour {
+	background-color: red;
+}
+
+.card {
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.card p {
+	line-height: 1.4rem;
+}
+
+.card a {
+	text-decoration: none;
+	font-style: italic;
+	color: lightgrey;
+}
+.card a:hover {
+	color: black;
+}
+
+.content {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background-color: #;
+}
+
+.content p {
+	font-size: 1.4rem;
+	line-height: 2rem;
+	padding-right: 20px;
+	float: left;
+	color: black;
+}
+
+.content img {
+	float: right;
+}
+
+.card img {
+	width: 100%;
+}
+
+.card img:hover {
+	opacity: 0.8;
+}
+
+.details {
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.portfolio {
+	width: 100%;
+	margin-bottom: 4rem;
+}
+
+
+.slider {
+	overflow-y: hidden;
+	max-height: 500px; /* approximate max height */
+
+	transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+
+/* ---- PORTFOLIO PAGE ----*/
+
+.main-image {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.main-image img {
+	width: 100%;
+	position: relative;
+}
+
+
+/* ---- MEDIA QUERIES ----*/
+
+@media (min-width: 1025px) {
+
+
+.main-header {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.name,
+.main-nav,
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav {
+	float: right;
+}
+
+.name {
+    width: 240px;
+    padding-top: 1rem;
+  }
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.card {
+	width: 31%;
+	float: left;
+	margin: 10px;
+}
+
+.details {
+	width: 50%;
+}
+
+.content img {
+	width: 40%;
+}
+
+.content p {
+	float: left;
+	width: 55%;
+}
+
+.text {
+	width: 30%;
+}
+
+.text-right {
+}
+
+.col {    
+		display: inline-block;
+		margin-right: -20px;
+		vertical-align: top;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+.primary {
+	width: 30%;
+
+}
+
+.secondary {
+	width: 65%;
+}
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+.card {
+	width: 47%;
+	float: left;
+	margin: 10px;
+}
+
+.details {
+	width: 75%;
+}
+
+.text {
+	width: 30%;
+}
+
+
+}
+
+@media (max-width: 1024px) {
+
+	.content img {
+		width: 100%;
+	}
+
+	.caption {
+		display: none;
+	}
+}
+

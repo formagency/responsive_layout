@@ -1,7 +1,7 @@
 
 p {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 1em;
+	font-weight: 300;
 	widows: 3;
 
 }
@@ -38,14 +38,13 @@ p span {
 
 li {
 	list-style: none;
-	text-transform: ;
 }
 
 a {
 	font-family: 'Open Sans', sans-serif;
 }
 
-a:visited: {
+a:visited {
 	text-decoration: none;
 	color: black;
 }
@@ -125,7 +124,6 @@ figcaption {
 .name,
 .main-nav li {
 	text-align: center;
-	background:;
 	margin-top: 6px;
 	margin-bottom: 6px;
 	line-height: 2rem;
@@ -186,7 +184,6 @@ figcaption {
 .content {
 	padding-top: 4rem;
 	padding-bottom: 4rem;
-	background-color: #;
 }
 
 .content p {
